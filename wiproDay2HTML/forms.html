@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="message.html">
+    <label for="name">Name</label>:
+     <input type="text" id="name" name="name"/>
+
+     <label for="email">Email id</label>:
+     <input type="email" id="email" name="email"/>
+
+     <label for="searchForProducts">Search for products</label>:
+     <input type="search" id="search" name="search"/>
+   
+     <label for="quantity">quantity</label>:
+     <input type="number" id="quantity" />
+
+     <label> Start date: <input type="date" name="start-date" /></label>
+    Password: <input type="password" name="password"/>
+
+    <label for="address">Address</label>
+    <textarea id ="address" rows="6"></textarea>
+
+    <label for="city">City</label>
+    <select id="city" name="city">
+        <option value="BNG">Banglore</option>
+        <option value="MAS">Chennai</option>
+        <option selected value="BNG">Mumbai</option>
+        <option value="DEL">Delhi</option>
+        <option value="CAL">Kolkata</option>
+    </select>
+
+    <label for="interests">Main Interests</label>
+    <div id="interests">
+        <label><input type="radio" name="interests" value="Sports"/>Sports</label>
+        <label><input type="radio" name="interests" value="current affairs"/>Current affairs</label>
+        <label><input type="radio" name="interests" value="films"/>Films</label>
+    </div>
+    <input type="checkbox"/>
+    <button>submit</button>
+</form>
+</body>
+</html>
